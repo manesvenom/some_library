@@ -1,0 +1,3 @@
+module(
+    name = "some_library",
+)
