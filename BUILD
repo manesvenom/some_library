@@ -1,6 +1,8 @@
-py_binary(
+py_library(
     name = "some_code",
-    srcs = ["src/some_code.py"],
+    srcs = ["src/some_code.py", "src/__init__.py"],
+    imports = ["src"],
+    visibility = ["//visibility:public"],
 )
 
 py_test(
