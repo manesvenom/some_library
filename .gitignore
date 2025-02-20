@@ -1,0 +1,14 @@
+# Bazel build output directories
+bazel-bin/
+bazel-out/
+bazel-testlogs/
+bazel-Bazel_some_library/
+
+# Other common files to ignore
+*.o
+*.so
+*.a
+*.class
+*.pyc
+*.pyo
+*.log
